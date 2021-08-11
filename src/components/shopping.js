@@ -15,7 +15,7 @@ const Shopping=(props)=>{
     }
     return (<div class="shop-btn">
        <div class="wrapper-shop">
-        <button onClick={shopping} class="shopping">Shopping</button>
+        <button onClick={shopping} class="shopping">Start shopping</button>
     </div>
     </div>)
 }

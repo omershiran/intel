@@ -11,7 +11,7 @@ const Feedback=(props)=>{
         props.history.push('/feedback')
         }
     }
-    return (<div>
+    return (<div class="wrapper">
          <button onClick={feedback} >feedback</button>
     
     </div>)

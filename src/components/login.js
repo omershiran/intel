@@ -9,11 +9,12 @@ const Login=(props)=>{
         props.history.push('/Login-form')
     }
 
-    return (<div>
+    return (  <div class="login-btn">
+    <div class="wrapper">
         <button disabled={user.FirstName} onClick={Signup}>Signup</button>
         {/* <button disabled={true} ><Link to="/Login-form">Signup</Link></button> */}
 
-    </div>)
+        </div></div>)
 }
 
 export default Login

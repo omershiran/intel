@@ -5,9 +5,7 @@ import Menu from './menu'
 const Body=()=>{
 
 
-    return (<div style={{ display: "flex",
-    flexDirection: "row"
-    }}>
+    return ( <div class="main-wrapper">
         <Menu />
 <Content  />
 
